@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="stylei.css">
+    <link rel="stylesheet" href="master.css">
+    
+    <title>Home</title>
+</head>
+
+<body class="text-white font-mono">
+  <nav >
+    <div >
+      <div class="cursor-pointer md:hidden p-4">
+        <svg id="burger" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+      </div>
+      
+      <ul id="menu" class="hidden sm:flex sm:justify-center">
+        <li class="px-4"></li>
+        <li class="px-4"><a href="#">Home</a></li>
+        <li class="px-4"><a href="index2.html">Predict</a></li>
+        <li class="px-4"><a href="#">About</a></li>
+        <li class="px-4"><a href="#">Review</a></li>
+      </ul>
+    </div>
+  </nav>
+ 
+  <video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+    <source src="img/vid5.mp4" type="video/mp4">
+    </video>
+    <div class="text-left  mt-32 text-6xl ">
+      <h1 px-5>Welcome</h1>
+      <h2 class="px-5 py-4 font-mono">Satisfy your cravings with the tap of a button.</h2>
+      
+    </div>
+    <div class="text-center py-8">
+      <a href="index2.html" class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 border-white rounded-full shadow-md group">
+        <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-purple-500 group-hover:translate-x-0 ease">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+        </span>
+        <span class="absolute flex items-center justify-center w-full h-full text-purple-500 transition-all duration-300 transform group-hover:translate-x-full ease">Proceed</span>
+        <span class="relative invisible">Button Tex2t</span>
+        </a>
+    </div>
+      </body>
+      <script src="script.js"></script>
+</html>
